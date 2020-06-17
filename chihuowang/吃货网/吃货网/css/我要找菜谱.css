@@ -1,0 +1,36 @@
+﻿#bigdiv {
+    width:100%;
+    height:1000px;
+    background-color:#f9dbdb;
+     margin:0 auto;
+
+}
+#center {
+    width:900px;
+    height:1000px;
+   
+    margin:0 auto;
+}
+#baiseneirong {
+     width:900px;
+    height:950px;
+    background-color:#ffffff;
+}
+.biaoti {
+    width:520px;
+    height:50px;
+}
+.neirong {
+    width:890px;
+    height:520px;
+}
+.tijiaoanniu {
+    width:118px;
+    height:48px;
+    background-color:#ff0000;
+    color:#ffffff;
+}
+.tupian_sc {
+    width:380px;
+    height:340px;
+}

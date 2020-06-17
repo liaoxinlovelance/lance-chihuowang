@@ -1,0 +1,77 @@
+﻿body {
+    margin:0 auto;
+    width:1350px;
+}
+#head {
+    /*头部*/
+     width:1350px;
+     height:300px;
+
+}
+#top1 {
+    /*红色背景部分*/
+    height:170px;
+
+    background:linear-gradient(to left,rgba(174, 6, 6, 0.92),red);
+    
+}
+#logo {/*logo图片*/
+    width:200px;
+    height:140px;
+    display:block;
+    margin:0px 100px;
+    padding:0px 0px;
+    background-image:url(/img/logoziji2.png);
+    background-repeat:no-repeat;
+    background-size:197px 144px;
+}
+.suo_txt {/*搜索框*/
+    width:260px;
+    height:22px;
+    position:relative;
+    top:-74px;
+    left:366px;
+    float:left;
+}
+.sousuo {
+    /*搜索按钮*/
+     width:51px;
+    height:28px;
+    position:relative;
+    top:-74px;
+    left:366px;
+    border:2px solid #fff;
+    float:left;
+    background-color:#ac1d1d;
+    color:#fff;
+    font-size:12px;
+
+}
+.float {
+    /*导航条*/
+      width:1310px;
+     height:52px;
+     /*background-color:#ffd800;*/
+     position:relative;
+     top:-16px;
+     left:0;
+}
+    .float li {
+        /*一级菜单*/
+        float:left;
+      
+        list-style:none;
+       padding:14px 25px;
+         /*background-color:#808080;*/
+          position:relative;
+     top:0px;
+     left:87px;
+     border-bottom:#fff 2px solid;
+    }
+        .float li a {  /*a标签*/
+            text-decoration:none;
+            color:#080808;
+        }
+        .float li:hover{
+              border-bottom:#ff6a00 2px solid;
+        }

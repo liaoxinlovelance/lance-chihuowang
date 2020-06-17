@@ -1,0 +1,41 @@
+﻿* {
+    margin:0px 0px;
+    padding :0px 0px;
+
+}
+a {
+    text-decoration:none;
+   
+}
+ul li {
+    list-style:none;
+}
+#bigdiv {
+    width:100%;
+     margin:0 auto;
+       background-color:#f5efb7;
+}
+#main {
+    width:1000px;
+    
+     margin:0 auto;
+}
+dl.dl_1 {
+    width:310px;
+    height:326px;
+    border:2px solid #b200ff;
+   position:relative;
+   top:0px;
+   left:0px;
+   float:left;
+}
+ dl.dl_1 dt img {
+        width:310px; 
+        height:250px;
+        border:1px solid #b200ff;
+    }
+    
+dl.dl_1  dd {
+        font-weight:100;
+        font-size:8px;
+    }

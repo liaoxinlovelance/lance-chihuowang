@@ -1,0 +1,317 @@
+﻿* {
+    margin:0px 0px;
+    padding:0px 0px;
+}
+a {
+    text-decoration:none;
+}
+ul li {
+    list-style:none;
+}
+div.beijingse {
+       width:100%;
+        background-color:#f8d7d7;
+         margin:0 auto;
+}
+#fabucaidan {
+    width:1060px;
+    height:3110px;
+    background-color:#f8d7d7;
+    margin:0 auto;
+}
+p.font_center_jiacu {
+    text-align:center;
+    font-size:20px;
+    font-weight:500;
+}
+#jieshaocaidan {
+      width:1060px;
+    height:500px;
+    background-color:#fff;
+}
+    #jieshaocaidan ul {
+        width:1060px;
+    height:50px;
+    }
+    #jieshaocaidan ul li {
+        float:left;
+        font-size:15px;
+        color:#000;
+        padding:14px 24px;
+    }
+      #jieshaocaidan ul li.right {
+          position:relative;
+          top:0px;
+          left:873px;
+    }
+ .caipumingcheng {
+     width:320px;
+     height:30px;
+     padding:0px 7px;
+}
+#jieshaocaidan ul.suxin li {
+    position:relative;
+    left:-452px;
+    top:0px;
+}
+#jieshaocaidan_buttom {
+     width:1060px;
+    height:346px;
+    border:1px solid #000;
+}
+#shangchuangtupians {
+    float:left;
+      width:262px;
+    height:281px;
+    border:1px solid #000;
+    margin:12px 10px;
+}
+#xingqin {
+     float:left;
+       width:700px;
+    height:200px;
+    border:1px solid #000;
+     margin:12px 0px;
+}
+#jilucailiao {
+    width:1060px;
+    height:500px;
+    background-color:#fff;
+}
+    #jilucailiao .zhuliaowenbenkuang {
+    width:241px;
+    height:50px;
+    }
+ #jilucailiao .zhuliaoyongliangwenbenkuang {
+    width:160px;
+    height:50px;
+    }
+
+    #jilucailiao  .shanchu {
+        width: 43px;
+        height: 41px;
+        display:inline-block;
+       
+       
+        background-image: url(/Images/shut1.png );
+        background-repeat:no-repeat;
+        background-position:-21px -17px;
+        background-size:80px 817px;
+        position:relative;
+        top:14px;
+        left:0px;
+        border-radius:20px 20px;
+    }
+        #jilucailiao .shanchu:hover {
+            width: 43px;
+        height: 41px;
+        display:inline-block;
+       
+       
+        background-image: url(/Images/shut1.png );
+        background-repeat:no-repeat;
+        background-position:-21px -89px;
+        background-size:80px 817px;
+        position:relative;
+        top:14px;
+        left:0px;
+        border-radius:20px 20px;
+        }
+#zengjiayixiang {
+     width:160px;
+    height:50px;
+}
+
+
+
+ #jilucailiao .fuliaowenbenkuang {
+    width:241px;
+    height:50px;
+    }
+ #jilucailiao .fuliaoyongliangwenbenkuang {
+    width:160px;
+    height:50px;
+    }
+
+    #jilucailiao  .shanchu2 {
+        width: 43px;
+        height: 41px;
+        display:inline-block;
+       
+       
+        background-image: url(/Images/shut1.png );
+        background-repeat:no-repeat;
+        background-position:-21px -17px;
+        background-size:80px 817px;
+        position:relative;
+        top:14px;
+        left:0px;
+        border-radius:20px 20px;
+    }
+        #jilucailiao .shanchu2:hover {
+            width: 43px;
+        height: 41px;
+        display:inline-block;
+       
+       
+        background-image: url(/Images/shut1.png );
+        background-repeat:no-repeat;
+        background-position:-21px -89px;
+        background-size:80px 817px;
+        position:relative;
+        top:14px;
+        left:0px;
+        border-radius:20px 20px;
+        }
+#zengjiayixiang2 {
+     width:160px;
+    height:50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#caidanbuzou {
+    width:1060px;
+    height:1848px;
+    background-color:#fff;
+}
+#caidanbuzou div.buzhou {
+    width:1060px;
+    height:215px;
+    padding:34px 0px 0px 0px;
+}
+#caidanbuzou div.buzhou span{
+    width:144px;
+    height:171px;
+    display:block;
+    float:left;
+    font-size:30px;
+    font-weight:700;
+    text-align:center;
+    line-height:151px;
+    color:#c2b4b4;
+}
+#caidanbuzou div.buzhou .tianjiabuzhoutu{
+  width:166px;
+    height:171px;
+    border:1px solid #c2b4b4;
+     float:left;
+}
+#caidanbuzou div.buzhou .buzhoumiaosu{
+   width:684px;
+   height:124px;
+   border:1px solid #c2b4b4;
+    float:left;
+}
+#zengjiayibu {
+    /*增加一步按钮*/
+    width:166px;
+    height:80px;
+    position:relative;
+    top:0px;
+    left:142px;
+}
+.tianjianchengpingtu {
+    width:166px;
+    height:171px;
+    border:1px solid #c2b4b4;
+    float:left;
+    margin:0px 6px 0px 0px;
+    position:relative;
+    top:0px;
+    left:54px;
+}
+.pengrenxiaojiqiao {
+    width:680px;
+    height:171px;
+    border:1px #808080 solid;
+    position:relative;
+    top:0px;
+    left:54px;
+   
+    
+}
+.caipubiaoqian {
+    width:680px;
+    height:70px;
+    border:1px #808080 solid;
+    position:relative;
+    top:0px;
+    left:54px;
+}
+.gaodingtijiao { 
+    /*搞定添加按钮*/
+    width:180px;
+    height:70px;
+    background-color:#f00;
+    color:#fff;
+    text-align:center;
+    font-size:15px;
+    font-weight:400;
+     position:relative;
+    top:30px;
+    left:270px;
+}
+.shangchuantupianyangsi {/*上传图片样式*/
+    width:260px;
+    height:240px;
+
+}
+.shangchuanliulan { 
+    /*上传浏览控件*/
+    width:260px;
+    height:240px;
+     opacity:0;
+     border:1px #ffd800 solid;
+     position:relative;
+     top:-244px;
+
+
+}
+.shangchuanqueding {
+    /*上传确定按钮*/
+    width:260px;
+    height:40px;
+    /*border:1px #ff6a00 solid;*/
+     position:relative;
+     top:-245px;
+}
+#img_file {
+     display: none;
+}
+#img_ys {
+    width:166px;
+    height:171px;
+}
+.buzhoutupian1 {
+    width:163px;
+    height:150px;
+    opacity:0;
+    position:relative;
+    top:-155px;
+    left:0px;
+}
+.buzhouannui1{
+    width:163px;
+    height:30px;
+
+    position:relative;
+    top:-155px;
+    left:0px;
+}

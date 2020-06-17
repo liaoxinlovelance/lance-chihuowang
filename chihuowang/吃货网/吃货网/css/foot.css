@@ -1,0 +1,102 @@
+﻿body {
+      margin:0 auto;
+    width:1350px;
+}
+#foot {/*底部*/
+    width: 1350px;
+    height: 300px;
+    background-color:#f7e3a5;
+}
+    #foot div {
+        float:left;
+    }
+#footleft {/*底部左边部分*/
+     width: 550px;
+    height: 250px;
+}
+#footleft span.logo {
+        /*吃货网logo*/
+        width:115px;
+        height:73px;
+       background-image:url(/img/logoziji2.png);
+       display:block;
+       background-repeat:no-repeat;
+       background-size:120px 93px;
+
+    }
+#footleft ul {
+        /*文字区域*/
+         width: 500px;
+         height: 126px;
+         /*border:#080808 1px solid;*/
+
+    }
+#footleft ul li {
+            color:#fff;
+            list-style:none;
+        }
+#footleft ul li span {
+                color:#f00;
+            }
+#footright {
+    /*底部右半部分*/
+     width: 780px;
+    height: 250px;
+}
+    #footright dl.fengxiang {
+       margin:0px 7px;
+        float:left;
+        position:relative;
+        top:60px;
+        left:65px;
+    }
+        #footright dl dd {
+            /*文字*/
+            text-align:center;
+            position:relative;
+            left:-29px;
+            top:0px;
+            font-size:12px;
+            font-weight:300;
+        }
+
+#footright dl.fengxiang dt a span.erweima1 {
+       /*分享微博*/
+       width:133px;
+       height:110px;
+       background-image:url(/Images/footerlinks.png);
+       display:block;
+       background-repeat:no-repeat;
+       background-position:0px 0px;
+       background-size:535px 110px;
+        }
+#footright dl.fengxiang dt a span.erweima2 {
+      /*分享qq空间*/
+       width:133px;
+       height:110px;
+       background-image:url(/Images/footerlinks.png);
+       display:block;
+       background-repeat:no-repeat;
+       background-position:-134px 0px;
+       background-size:535px 110px;
+        }
+#footright dl.fengxiang dt a span.erweima3 {
+      /*加微信好友*/  
+       width:133px;
+       height:110px;
+       background-image:url(/Images/footerlinks.png);
+       display:block;
+       background-repeat:no-repeat;
+       background-position:-402px 0px;
+       background-size:535px 110px;
+        }
+#footright dl.fengxiang dt a span.erweima4 {
+       /*手机下载客户端*/
+       width:133px;
+       height:110px;
+       background-image:url(/Images/footerlinks.png);
+       display:block;
+       background-repeat:no-repeat;
+       background-position:-268px 0px;
+       background-size:535px 110px;
+        }

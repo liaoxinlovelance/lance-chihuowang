@@ -1,0 +1,94 @@
+﻿#zhuce {
+    /*注册盒子的样式*/
+    width:1350px;
+    height:500px;
+    background-color:#f7e3a5;
+    margin:0 auto;
+}
+#font-center {
+    /*文字样式  中间居中加粗*/
+    height:68px;
+    font-size:20px;
+    font-weight:600;
+    color:#000000;
+    text-align:center;
+     margin:4px 0px;
+     line-height:68px;
+}
+
+#zhuce #form {
+    /*注册表单*/
+    width:800px;
+    height:400px;
+    background-color:#fff;
+    margin:0 auto;
+}
+#zhuce #form  div {
+    float:left;
+}
+.dlbutton {
+     /*注册表单左边按钮*/
+     width:185px;
+    height:38px;
+    margin:-4px 20px;
+    background-color:#fff;
+}
+#zhuce #left {
+    /*注册表单左边*/
+    width:224px;
+    height:350px;
+     background-color:#e7e5e5;
+}
+#zhuce #right {
+    /*注册表单右边*/
+    width:576px;
+    height:400px;
+     /*background-color:#72c4ee;*/
+}
+    #zhuce #right ul {
+         width:550px;
+    height:40px;
+    }
+    #zhuce #right ul li {
+        /*注册表单右边上面的li*/
+        float:left;
+        list-style:none;
+        margin:3px -23px;
+        
+    }
+#zhucezi {font-size:21px;
+        font-weight:500;
+}
+#dlyou {
+    /*注册表单右边上面的li 往右偏移的样式*/
+    position:relative;
+    top:0px;
+    left:362px;
+     font-size:8px;
+        font-weight:500;
+        color:#808080;
+
+}
+    #dlyou a {
+         font-size:8px;
+        color:#f00;
+    }
+#zhucetable {
+    /*表单table的样式*/
+    width:465px;
+    height:107px;
+    /*border:1px #f00 solid;*/
+    position:relative;
+    top:0px;
+    left:16px;
+}
+#zhuceannui {
+    /*注册按钮*/
+    width:95px;
+    height:42px;
+    background-color:#f00;
+    color:#fff;
+    position:relative;
+    top:11px;
+    left:126px;
+}

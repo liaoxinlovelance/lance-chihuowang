@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+    <siteMapNode url="吃货寻菜谱列表.aspx" title="吃货寻菜谱"  description="">
+        <siteMapNode url="我要找菜谱.aspx" title="我要找菜谱"  description="" />
+       
+    </siteMapNode>
+</siteMap>

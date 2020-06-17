@@ -1,0 +1,84 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="吃货网.模板.Site1" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>头部和尾部</title>
+     <link href="../css/foot.css" rel="stylesheet" />
+    <link href="../css/Style1.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    
+        
+        <!--  头部-->
+    <div id="Div1">
+       <p id="top1"><span id="logo"></span>
+        <%--<input type="text" placeholder="请输入菜谱/食材/菜单" id="suo_txt"/>
+        <input type="button" value="搜索" id="sousuo"/>--%>
+
+           <asp:TextBox ID="TextBox1" runat="server" placeholder="请输入菜谱/食材/菜单" CssClass="suo_txt" BackColor="#FFFFCC" BorderColor="Black" ForeColor="Black"></asp:TextBox>
+           <asp:Button ID="Button1" runat="server" Text="搜索" CssClass="sousuo" OnClick="Button1_Click"/>
+<div style="clear:both"></div>
+       </p>
+        <ul class="float">
+            
+            <li><a href="../首页.aspx">首页</a></li>
+            
+             <li><a href="../吃货天堂.aspx">吃货天堂<span id="chihuotiantang"></span></a></li>
+             <li><a href="../吃货寻菜谱列表.aspx">吃货寻菜谱</a></li>
+            
+             <li><a href="../发布菜单.aspx">我要发布菜单</a></li>
+            <div style="clear:both"></div>
+        </ul>
+    </div>
+<div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+ <%--尾部--%>
+        <div id="foot">
+        <div id="footleft">
+            <span class="logo"></span>
+            <ul>
+                <li>一个已被用户访问超过<span>13000000000</span></li>
+                <li>帮助了超过<span>10000000</span>人学会烹饪美食网</li>
+                <li>每天有超过<span>900000</span>人通过吃货网网站和移动APP解决他们的烹饪问题</li>
+                <li>现在，这些数字还在不断的增长着，欢迎您来一起使用吃货网</li>
+            </ul>
+        </div>
+        <div id="footright">
+            <dl class="fengxiang">
+                <dt><a href="#"><span class="erweima1"></span></a></dt>
+                <dd>点击进入</dd>
+                <dd>吃货网官方微博</dd>
+            </dl>
+             <dl class="fengxiang">
+                <dt><a href="#"><span class="erweima2"></span></a></dt>
+                <dd>点击进入</dd>
+                <dd>吃货网QQ空间</dd>
+            </dl>
+             <dl class="fengxiang">
+                <dt><a href="#"><span class="erweima3"></span></a></dt>
+                <dd>扫描二维码添加</dd>
+                <dd>吃货网为微信好友</dd>
+            </dl>
+             <dl class="fengxiang">
+                <dt><a href="#"><span class="erweima4"></span></a></dt>
+                <dd>扫描二维码下载</dd>
+                <dd>吃货网手机客户端</dd>
+            </dl>
+            <div style="clear:both"></div>
+        </div>
+        <div style="clear:both"></div>
+        
+    </div>
+
+    </form>
+</body>
+</html>
